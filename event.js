@@ -56,7 +56,6 @@ jQuery('<event_target>').on('<event_name>', function(){
     console.log('<event_name> triggered');
 });
 
-F. ex.
 jQuery('body').on('init_checkout', function(){
     console.log('init_checkout triggered');
     // now.do.whatever();
